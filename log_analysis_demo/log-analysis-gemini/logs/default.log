@@ -1,0 +1,10 @@
+2023-09-04 10:00:00 INFO User login successful
+2023-09-04 10:05:00 WARNING High memory usage detected
+2023-09-04 10:10:00 ERROR Database connection failed
+2023-09-04 10:15:00 INFO Backup completed successfully
+2023-09-04 10:20:00 ERROR Invalid user input
+2023-09-04 10:25:00 WARNING Disk space low
+2023-09-04 10:30:00 INFO System restart initiated
+2023-09-04 10:35:00 ERROR Network timeout occurred
+2023-09-04 10:40:00 WARNING CPU usage above threshold
+2023-09-04 10:45:00 INFO Configuration updated

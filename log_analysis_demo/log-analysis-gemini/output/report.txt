@@ -1,0 +1,7 @@
+Log Analysis Report
+====================
+Total Lines: 10
+Errors: 3
+Warnings: 3
+Info: 4
+Other: 0
