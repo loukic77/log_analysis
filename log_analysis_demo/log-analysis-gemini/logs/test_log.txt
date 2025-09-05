@@ -1,0 +1,531 @@
+2025-09-04 08:00:00 [INFO] 5G Core Network SMF service started successfully
+2025-09-04 08:00:01 [INFO] Connected to AMF at 10.0.0.10:38412
+2025-09-04 08:00:02 [INFO] Connected to UPF at 10.0.0.20:2152
+2025-09-04 08:00:03 [INFO] PCF policy engine initialized
+2025-09-04 08:00:04 [INFO] NRF registration completed
+2025-09-04 08:00:05 [DEBUG] SMF Session created for UE: imsi-001010000000001, PDU session ID: 1
+2025-09-04 08:00:05 [DEBUG] Sending N1 SM Information to AMF for UE: imsi-001010000000001
+2025-09-04 08:00:06 [DEBUG] Received PDU session establishment request from AMF, session ID: 1
+2025-09-04 08:00:06 [DEBUG] Allocated TEID=0x12345 for uplink GTP tunnel
+2025-09-04 08:00:06 [NOTICE] PDU Session successfully established for UE: imsi-001010000000001
+2025-09-04 08:00:07 [DEBUG] QoS flow established: 5QI=9, ARP=1
+2025-09-04 08:00:08 [DEBUG] UE: imsi-001010000000002 requested session, ID: 2
+2025-09-04 08:00:08 [DEBUG] Allocated TEID=0x22345 for uplink GTP tunnel
+2025-09-04 08:00:09 [NOTICE] PDU Session successfully established for UE: imsi-001010000000002
+2025-09-04 08:00:10 [DEBUG] Heartbeat message sent to UPF node upf1
+2025-09-04 08:00:10 [DEBUG] Heartbeat response received from UPF node upf1
+2025-09-04 08:00:11 [DEBUG] UE: imsi-001010000000003 requested session, ID: 3
+2025-09-04 08:00:11 [DEBUG] Allocated TEID=0x32345 for uplink GTP tunnel
+2025-09-04 08:00:12 [NOTICE] PDU Session successfully established for UE: imsi-001010000000003
+2025-09-04 08:00:13 [DEBUG] UE: imsi-001010000000004 requested session, ID: 4
+2025-09-04 08:00:13 [DEBUG] Allocated TEID=0x42345 for uplink GTP tunnel
+2025-09-04 08:00:14 [NOTICE] PDU Session successfully established for UE: imsi-001010000000004
+2025-09-04 08:00:15 [DEBUG] UE: imsi-001010000000005 requested session, ID: 5
+2025-09-04 08:00:15 [DEBUG] Allocated TEID=0x52345 for uplink GTP tunnel
+2025-09-04 08:00:16 [NOTICE] PDU Session successfully established for UE: imsi-001010000000005
+2025-09-04 08:00:17 [DEBUG] Session modification request for UE: imsi-001010000000001
+2025-09-04 08:00:17 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=7
+2025-09-04 08:00:17 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:00:18 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000001
+2025-09-04 08:00:19 [DEBUG] UE: imsi-001010000000002 requested session release, ID: 2
+2025-09-04 08:00:19 [DEBUG] Sending Session Release Command to UPF, TEID=0x22345
+2025-09-04 08:00:20 [DEBUG] Session released for UE: imsi-001010000000002
+2025-09-04 08:00:20 [NOTICE] Session ID: 2 terminated cleanly
+2025-09-04 08:00:21 [WARNING] High memory usage detected: 78%
+2025-09-04 08:00:22 [DEBUG] UE: imsi-001010000000006 requested session, ID: 6
+2025-09-04 08:00:22 [DEBUG] Allocated TEID=0x62345 for uplink GTP tunnel
+2025-09-04 08:00:23 [NOTICE] PDU Session successfully established for UE: imsi-001010000000006
+2025-09-04 08:00:24 [DEBUG] UE: imsi-001010000000007 requested session, ID: 7
+2025-09-04 08:00:24 [DEBUG] Allocated TEID=0x72345 for uplink GTP tunnel
+2025-09-04 08:00:25 [NOTICE] PDU Session successfully established for UE: imsi-001010000000007
+2025-09-04 08:00:26 [DEBUG] Heartbeat message sent to UPF node upf2
+2025-09-04 08:00:26 [DEBUG] Heartbeat response received from UPF node upf2
+2025-09-04 08:00:27 [DEBUG] UE: imsi-001010000000008 requested session, ID: 8
+2025-09-04 08:00:27 [DEBUG] Allocated TEID=0x82345 for uplink GTP tunnel
+2025-09-04 08:00:28 [NOTICE] PDU Session successfully established for UE: imsi-001010000000008
+2025-09-04 08:00:29 [DEBUG] UE: imsi-001010000000009 requested session, ID: 9
+2025-09-04 08:00:29 [DEBUG] Allocated TEID=0x92345 for uplink GTP tunnel
+2025-09-04 08:00:30 [NOTICE] PDU Session successfully established for UE: imsi-001010000000009
+2025-09-04 08:00:31 [DEBUG] UE: imsi-001010000000010 requested session, ID: 10
+2025-09-04 08:00:31 [DEBUG] Allocated TEID=0xA2345 for uplink GTP tunnel
+2025-09-04 08:00:32 [NOTICE] PDU Session successfully established for UE: imsi-001010000000010
+2025-09-04 08:00:33 [DEBUG] Session modification request for UE: imsi-001010000000003
+2025-09-04 08:00:33 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=8
+2025-09-04 08:00:33 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:00:34 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000003
+2025-09-04 08:00:35 [DEBUG] UE: imsi-001010000000004 requested session release, ID: 4
+2025-09-04 08:00:35 [DEBUG] Sending Session Release Command to UPF, TEID=0x42345
+2025-09-04 08:00:36 [DEBUG] Session released for UE: imsi-001010000000004
+2025-09-04 08:00:36 [NOTICE] Session ID: 4 terminated cleanly
+2025-09-04 08:00:37 [WARNING] CPU usage above threshold: 85%
+2025-09-04 08:00:38 [DEBUG] UE: imsi-001010000000011 requested session, ID: 11
+2025-09-04 08:00:38 [DEBUG] Allocated TEID=0xB2345 for uplink GTP tunnel
+2025-09-04 08:00:39 [NOTICE] PDU Session successfully established for UE: imsi-001010000000011
+2025-09-04 08:00:40 [DEBUG] UE: imsi-001010000000012 requested session, ID: 12
+2025-09-04 08:00:40 [DEBUG] Allocated TEID=0xC2345 for uplink GTP tunnel
+2025-09-04 08:00:41 [NOTICE] PDU Session successfully established for UE: imsi-001010000000012
+2025-09-04 08:00:42 [DEBUG] Heartbeat message sent to UPF node upf1
+2025-09-04 08:00:42 [DEBUG] Heartbeat response received from UPF node upf1
+2025-09-04 08:00:43 [DEBUG] UE: imsi-001010000000013 requested session, ID: 13
+2025-09-04 08:00:43 [DEBUG] Allocated TEID=0xD2345 for uplink GTP tunnel
+2025-09-04 08:00:44 [NOTICE] PDU Session successfully established for UE: imsi-001010000000013
+2025-09-04 08:00:45 [DEBUG] UE: imsi-001010000000014 requested session, ID: 14
+2025-09-04 08:00:45 [DEBUG] Allocated TEID=0xE2345 for uplink GTP tunnel
+2025-09-04 08:00:46 [NOTICE] PDU Session successfully established for UE: imsi-001010000000014
+2025-09-04 08:00:47 [DEBUG] UE: imsi-001010000000015 requested session, ID: 15
+2025-09-04 08:00:47 [DEBUG] Allocated TEID=0xF2345 for uplink GTP tunnel
+2025-09-04 08:00:48 [NOTICE] PDU Session successfully established for UE: imsi-001010000000015
+2025-09-04 08:00:49 [DEBUG] Session modification request for UE: imsi-001010000000005
+2025-09-04 08:00:49 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=6
+2025-09-04 08:00:49 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:00:50 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000005
+2025-09-04 08:00:51 [DEBUG] UE: imsi-001010000000006 requested session release, ID: 6
+2025-09-04 08:00:51 [DEBUG] Sending Session Release Command to UPF, TEID=0x62345
+2025-09-04 08:00:52 [DEBUG] Session released for UE: imsi-001010000000006
+2025-09-04 08:00:52 [NOTICE] Session ID: 6 terminated cleanly
+2025-09-04 08:00:53 [WARNING] Memory usage at 82%
+2025-09-04 08:00:54 [DEBUG] UE: imsi-001010000000016 requested session, ID: 16
+2025-09-04 08:00:54 [DEBUG] Allocated TEID=0x102345 for uplink GTP tunnel
+2025-09-04 08:00:55 [NOTICE] PDU Session successfully established for UE: imsi-001010000000016
+2025-09-04 08:00:56 [DEBUG] UE: imsi-001010000000017 requested session, ID: 17
+2025-09-04 08:00:56 [DEBUG] Allocated TEID=0x112345 for uplink GTP tunnel
+2025-09-04 08:00:57 [NOTICE] PDU Session successfully established for UE: imsi-001010000000017
+2025-09-04 08:00:58 [DEBUG] Heartbeat message sent to UPF node upf2
+2025-09-04 08:00:58 [DEBUG] Heartbeat response received from UPF node upf2
+2025-09-04 08:00:59 [DEBUG] UE: imsi-001010000000018 requested session, ID: 18
+2025-09-04 08:00:59 [DEBUG] Allocated TEID=0x122345 for uplink GTP tunnel
+2025-09-04 08:01:00 [NOTICE] PDU Session successfully established for UE: imsi-001010000000018
+2025-09-04 08:01:01 [DEBUG] UE: imsi-001010000000019 requested session, ID: 19
+2025-09-04 08:01:01 [DEBUG] Allocated TEID=0x132345 for uplink GTP tunnel
+2025-09-04 08:01:02 [NOTICE] PDU Session successfully established for UE: imsi-001010000000019
+2025-09-04 08:01:03 [DEBUG] UE: imsi-001010000000020 requested session, ID: 20
+2025-09-04 08:01:03 [DEBUG] Allocated TEID=0x142345 for uplink GTP tunnel
+2025-09-04 08:01:04 [NOTICE] PDU Session successfully established for UE: imsi-001010000000020
+2025-09-04 08:01:05 [ERROR] Failed to allocate IP address from pool 10.1.0.0/16
+2025-09-04 08:01:05 [DEBUG] Retrying with secondary IP pool 10.2.0.0/16
+2025-09-04 08:01:05 [DEBUG] Allocated IP: 10.2.0.15 for UE: imsi-001010000000021
+2025-09-04 08:01:06 [NOTICE] PDU Session successfully established for UE: imsi-001010000000021
+2025-09-04 08:01:07 [DEBUG] Session modification request for UE: imsi-001010000000007
+2025-09-04 08:01:07 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=5
+2025-09-04 08:01:07 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:01:08 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000007
+2025-09-04 08:01:09 [DEBUG] UE: imsi-001010000000008 requested session release, ID: 8
+2025-09-04 08:01:09 [DEBUG] Sending Session Release Command to UPF, TEID=0x82345
+2025-09-04 08:01:10 [DEBUG] Session released for UE: imsi-001010000000008
+2025-09-04 08:01:10 [NOTICE] Session ID: 8 terminated cleanly
+2025-09-04 08:01:11 [WARNING] High CPU temperature detected: 75°C
+2025-09-04 08:01:12 [DEBUG] UE: imsi-001010000000022 requested session, ID: 22
+2025-09-04 08:01:12 [DEBUG] Allocated TEID=0x162345 for uplink GTP tunnel
+2025-09-04 08:01:13 [NOTICE] PDU Session successfully established for UE: imsi-001010000000022
+2025-09-04 08:01:14 [DEBUG] UE: imsi-001010000000023 requested session, ID: 23
+2025-09-04 08:01:14 [DEBUG] Allocated TEID=0x172345 for uplink GTP tunnel
+2025-09-04 08:01:15 [NOTICE] PDU Session successfully established for UE: imsi-001010000000023
+2025-09-04 08:01:16 [DEBUG] Heartbeat message sent to UPF node upf1
+2025-09-04 08:01:16 [DEBUG] Heartbeat response received from UPF node upf1
+2025-09-04 08:01:17 [DEBUG] UE: imsi-001010000000024 requested session, ID: 24
+2025-09-04 08:01:17 [DEBUG] Allocated TEID=0x182345 for uplink GTP tunnel
+2025-09-04 08:01:18 [NOTICE] PDU Session successfully established for UE: imsi-001010000000024
+2025-09-04 08:01:19 [DEBUG] UE: imsi-001010000000025 requested session, ID: 25
+2025-09-04 08:01:19 [DEBUG] Allocated TEID=0x192345 for uplink GTP tunnel
+2025-09-04 08:01:20 [NOTICE] PDU Session successfully established for UE: imsi-001010000000025
+2025-09-04 08:01:21 [DEBUG] UE: imsi-001010000000026 requested session, ID: 26
+2025-09-04 08:01:21 [DEBUG] Allocated TEID=0x1A2345 for uplink GTP tunnel
+2025-09-04 08:01:22 [NOTICE] PDU Session successfully established for UE: imsi-001010000000026
+2025-09-04 08:01:23 [DEBUG] Session modification request for UE: imsi-001010000000009
+2025-09-04 08:01:23 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=4
+2025-09-04 08:01:23 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:01:24 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000009
+2025-09-04 08:01:25 [DEBUG] UE: imsi-001010000000010 requested session release, ID: 10
+2025-09-04 08:01:25 [DEBUG] Sending Session Release Command to UPF, TEID=0xA2345
+2025-09-04 08:01:26 [DEBUG] Session released for UE: imsi-001010000000010
+2025-09-04 08:01:26 [NOTICE] Session ID: 10 terminated cleanly
+2025-09-04 08:01:27 [WARNING] Disk space usage: 76%
+2025-09-04 08:01:28 [DEBUG] UE: imsi-001010000000027 requested session, ID: 27
+2025-09-04 08:01:28 [DEBUG] Allocated TEID=0x1B2345 for uplink GTP tunnel
+2025-09-04 08:01:29 [NOTICE] PDU Session successfully established for UE: imsi-001010000000027
+2025-09-04 08:01:30 [DEBUG] UE: imsi-001010000000028 requested session, ID: 28
+2025-09-04 08:01:30 [DEBUG] Allocated TEID=0x1C2345 for uplink GTP tunnel
+2025-09-04 08:01:31 [NOTICE] PDU Session successfully established for UE: imsi-001010000000028
+2025-09-04 08:01:32 [DEBUG] Heartbeat message sent to UPF node upf2
+2025-09-04 08:01:32 [DEBUG] Heartbeat response received from UPF node upf2
+2025-09-04 08:01:33 [DEBUG] UE: imsi-001010000000029 requested session, ID: 29
+2025-09-04 08:01:33 [DEBUG] Allocated TEID=0x1D2345 for uplink GTP tunnel
+2025-09-04 08:01:34 [NOTICE] PDU Session successfully established for UE: imsi-001010000000029
+2025-09-04 08:01:35 [DEBUG] UE: imsi-001010000000030 requested session, ID: 30
+2025-09-04 08:01:35 [DEBUG] Allocated TEID=0x1E2345 for uplink GTP tunnel
+2025-09-04 08:01:36 [NOTICE] PDU Session successfully established for UE: imsi-001010000000030
+2025-09-04 08:01:37 [DEBUG] UE: imsi-001010000000031 requested session, ID: 31
+2025-09-04 08:01:37 [DEBUG] Allocated TEID=0x1F2345 for uplink GTP tunnel
+2025-09-04 08:01:38 [NOTICE] PDU Session successfully established for UE: imsi-001010000000031
+2025-09-04 08:01:39 [DEBUG] Session modification request for UE: imsi-001010000000011
+2025-09-04 08:01:39 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=3
+2025-09-04 08:01:39 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:01:40 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000011
+2025-09-04 08:01:41 [DEBUG] UE: imsi-001010000000012 requested session release, ID: 12
+2025-09-04 08:01:41 [DEBUG] Sending Session Release Command to UPF, TEID=0xC2345
+2025-09-04 08:01:42 [DEBUG] Session released for UE: imsi-001010000000012
+2025-09-04 08:01:42 [NOTICE] Session ID: 12 terminated cleanly
+2025-09-04 08:01:43 [WARNING] Network latency increased: 45ms
+2025-09-04 08:01:44 [DEBUG] UE: imsi-001010000000032 requested session, ID: 32
+2025-09-04 08:01:44 [DEBUG] Allocated TEID=0x202345 for uplink GTP tunnel
+2025-09-04 08:01:45 [NOTICE] PDU Session successfully established for UE: imsi-001010000000032
+2025-09-04 08:01:46 [DEBUG] UE: imsi-001010000000033 requested session, ID: 33
+2025-09-04 08:01:46 [DEBUG] Allocated TEID=0x212345 for uplink GTP tunnel
+2025-09-04 08:01:47 [NOTICE] PDU Session successfully established for UE: imsi-001010000000033
+2025-09-04 08:01:48 [DEBUG] Heartbeat message sent to UPF node upf1
+2025-09-04 08:01:48 [ERROR] GTP tunnel establishment failed for UE: imsi-001010000000034, TEID allocation timeout
+2025-09-04 08:01:48 [DEBUG] Heartbeat response received from UPF node upf1
+2025-09-04 08:01:49 [DEBUG] UE: imsi-001010000000034 requested session, ID: 34
+2025-09-04 08:01:49 [DEBUG] Allocated TEID=0x222345 for uplink GTP tunnel
+2025-09-04 08:01:50 [NOTICE] PDU Session successfully established for UE: imsi-001010000000034
+2025-09-04 08:01:51 [DEBUG] UE: imsi-001010000000035 requested session, ID: 35
+2025-09-04 08:01:51 [DEBUG] Allocated TEID=0x232345 for uplink GTP tunnel
+2025-09-04 08:01:52 [NOTICE] PDU Session successfully established for UE: imsi-001010000000035
+2025-09-04 08:01:53 [DEBUG] UE: imsi-001010000000036 requested session, ID: 36
+2025-09-04 08:01:53 [DEBUG] Allocated TEID=0x242345 for uplink GTP tunnel
+2025-09-04 08:01:54 [NOTICE] PDU Session successfully established for UE: imsi-001010000000036
+2025-09-04 08:01:55 [DEBUG] Session modification request for UE: imsi-001010000000013
+2025-09-04 08:01:55 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=2
+2025-09-04 08:01:55 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:01:56 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000013
+2025-09-04 08:01:57 [DEBUG] UE: imsi-001010000000014 requested session release, ID: 14
+2025-09-04 08:01:57 [DEBUG] Sending Session Release Command to UPF, TEID=0xE2345
+2025-09-04 08:01:58 [DEBUG] Session released for UE: imsi-001010000000014
+2025-09-04 08:01:58 [NOTICE] Session ID: 14 terminated cleanly
+2025-09-04 08:01:59 [WARNING] High response time detected: 120ms
+2025-09-04 08:02:00 [DEBUG] UE: imsi-001010000000037 requested session, ID: 37
+2025-09-04 08:02:00 [DEBUG] Allocated TEID=0x252345 for uplink GTP tunnel
+2025-09-04 08:02:01 [NOTICE] PDU Session successfully established for UE: imsi-001010000000037
+2025-09-04 08:02:02 [DEBUG] UE: imsi-001010000000038 requested session, ID: 38
+2025-09-04 08:02:02 [DEBUG] Allocated TEID=0x262345 for uplink GTP tunnel
+2025-09-04 08:02:03 [NOTICE] PDU Session successfully established for UE: imsi-001010000000038
+2025-09-04 08:02:04 [DEBUG] Heartbeat message sent to UPF node upf2
+2025-09-04 08:02:04 [DEBUG] Heartbeat response received from UPF node upf2
+2025-09-04 08:02:05 [DEBUG] UE: imsi-001010000000039 requested session, ID: 39
+2025-09-04 08:02:05 [DEBUG] Allocated TEID=0x272345 for uplink GTP tunnel
+2025-09-04 08:02:06 [NOTICE] PDU Session successfully established for UE: imsi-001010000000039
+2025-09-04 08:02:07 [DEBUG] UE: imsi-001010000000040 requested session, ID: 40
+2025-09-04 08:02:07 [DEBUG] Allocated TEID=0x282345 for uplink GTP tunnel
+2025-09-04 08:02:08 [NOTICE] PDU Session successfully established for UE: imsi-001010000000040
+2025-09-04 08:02:09 [DEBUG] UE: imsi-001010000000041 requested session, ID: 41
+2025-09-04 08:02:09 [DEBUG] Allocated TEID=0x292345 for uplink GTP tunnel
+2025-09-04 08:02:10 [NOTICE] PDU Session successfully established for UE: imsi-001010000000041
+2025-09-04 08:02:11 [DEBUG] Session modification request for UE: imsi-001010000000015
+2025-09-04 08:02:11 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=1
+2025-09-04 08:02:11 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:02:12 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000015
+2025-09-04 08:02:13 [DEBUG] UE: imsi-001010000000016 requested session release, ID: 16
+2025-09-04 08:02:13 [DEBUG] Sending Session Release Command to UPF, TEID=0x102345
+2025-09-04 08:02:14 [DEBUG] Session released for UE: imsi-001010000000016
+2025-09-04 08:02:14 [NOTICE] Session ID: 16 terminated cleanly
+2025-09-04 08:02:15 [WARNING] Memory fragmentation high: 68%
+2025-09-04 08:02:16 [DEBUG] UE: imsi-001010000000042 requested session, ID: 42
+2025-09-04 08:02:16 [DEBUG] Allocated TEID=0x2A2345 for uplink GTP tunnel
+2025-09-04 08:02:17 [NOTICE] PDU Session successfully established for UE: imsi-001010000000042
+2025-09-04 08:02:18 [DEBUG] UE: imsi-001010000000043 requested session, ID: 43
+2025-09-04 08:02:18 [DEBUG] Allocated TEID=0x2B2345 for uplink GTP tunnel
+2025-09-04 08:02:19 [NOTICE] PDU Session successfully established for UE: imsi-001010000000043
+2025-09-04 08:02:20 [DEBUG] Heartbeat message sent to UPF node upf1
+2025-09-04 08:02:20 [DEBUG] Heartbeat response received from UPF node upf1
+2025-09-04 08:02:21 [DEBUG] UE: imsi-001010000000044 requested session, ID: 44
+2025-09-04 08:02:21 [DEBUG] Allocated TEID=0x2C2345 for uplink GTP tunnel
+2025-09-04 08:02:22 [NOTICE] PDU Session successfully established for UE: imsi-001010000000044
+2025-09-04 08:02:23 [DEBUG] UE: imsi-001010000000045 requested session, ID: 45
+2025-09-04 08:02:23 [DEBUG] Allocated TEID=0x2D2345 for uplink GTP tunnel
+2025-09-04 08:02:24 [NOTICE] PDU Session successfully established for UE: imsi-001010000000045
+2025-09-04 08:02:25 [DEBUG] UE: imsi-001010000000046 requested session, ID: 46
+2025-09-04 08:02:25 [DEBUG] Allocated TEID=0x2E2345 for uplink GTP tunnel
+2025-09-04 08:02:26 [NOTICE] PDU Session successfully established for UE: imsi-001010000000046
+2025-09-04 08:02:27 [DEBUG] Session modification request for UE: imsi-001010000000017
+2025-09-04 08:02:27 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=7
+2025-09-04 08:02:27 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:02:28 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000017
+2025-09-04 08:02:29 [DEBUG] UE: imsi-001010000000018 requested session release, ID: 18
+2025-09-04 08:02:29 [DEBUG] Sending Session Release Command to UPF, TEID=0x122345
+2025-09-04 08:02:30 [DEBUG] Session released for UE: imsi-001010000000018
+2025-09-04 08:02:30 [NOTICE] Session ID: 18 terminated cleanly
+2025-09-04 08:02:31 [WARNING] CPU context switches high: 15000/sec
+2025-09-04 08:02:32 [DEBUG] UE: imsi-001010000000047 requested session, ID: 47
+2025-09-04 08:02:32 [DEBUG] Allocated TEID=0x2F2345 for uplink GTP tunnel
+2025-09-04 08:02:33 [NOTICE] PDU Session successfully established for UE: imsi-001010000000047
+2025-09-04 08:02:34 [DEBUG] UE: imsi-001010000000048 requested session, ID: 48
+2025-09-04 08:02:34 [DEBUG] Allocated TEID=0x302345 for uplink GTP tunnel
+2025-09-04 08:02:35 [NOTICE] PDU Session successfully established for UE: imsi-001010000000048
+2025-09-04 08:02:36 [DEBUG] Heartbeat message sent to UPF node upf2
+2025-09-04 08:02:36 [DEBUG] Heartbeat response received from UPF node upf2
+2025-09-04 08:02:37 [DEBUG] UE: imsi-001010000000049 requested session, ID: 49
+2025-09-04 08:02:37 [DEBUG] Allocated TEID=0x312345 for uplink GTP tunnel
+2025-09-04 08:02:38 [NOTICE] PDU Session successfully established for UE: imsi-001010000000049
+2025-09-04 08:02:39 [DEBUG] UE: imsi-001010000000050 requested session, ID: 50
+2025-09-04 08:02:39 [DEBUG] Allocated TEID=0x322345 for uplink GTP tunnel
+2025-09-04 08:02:40 [NOTICE] PDU Session successfully established for UE: imsi-001010000000050
+2025-09-04 08:02:41 [DEBUG] UE: imsi-001010000000051 requested session, ID: 51
+2025-09-04 08:02:41 [DEBUG] Allocated TEID=0x332345 for uplink GTP tunnel
+2025-09-04 08:02:42 [NOTICE] PDU Session successfully established for UE: imsi-001010000000051
+2025-09-04 08:02:43 [DEBUG] Session modification request for UE: imsi-001010000000019
+2025-09-04 08:02:43 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=8
+2025-09-04 08:02:43 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:02:44 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000019
+2025-09-04 08:02:45 [DEBUG] UE: imsi-001010000000020 requested session release, ID: 20
+2025-09-04 08:02:45 [DEBUG] Sending Session Release Command to UPF, TEID=0x142345
+2025-09-04 08:02:46 [DEBUG] Session released for UE: imsi-001010000000020
+2025-09-04 08:02:46 [NOTICE] Session ID: 20 terminated cleanly
+2025-09-04 08:02:47 [WARNING] Network packet loss detected: 0.5%
+2025-09-04 08:02:48 [DEBUG] UE: imsi-001010000000052 requested session, ID: 52
+2025-09-04 08:02:48 [DEBUG] Allocated TEID=0x342345 for uplink GTP tunnel
+2025-09-04 08:02:49 [NOTICE] PDU Session successfully established for UE: imsi-001010000000052
+2025-09-04 08:02:50 [DEBUG] UE: imsi-001010000000053 requested session, ID: 53
+2025-09-04 08:02:50 [DEBUG] Allocated TEID=0x352345 for uplink GTP tunnel
+2025-09-04 08:02:51 [NOTICE] PDU Session successfully established for UE: imsi-001010000000053
+2025-09-04 08:02:52 [DEBUG] Heartbeat message sent to UPF node upf1
+2025-09-04 08:02:52 [DEBUG] Heartbeat response received from UPF node upf1
+2025-09-04 08:02:53 [DEBUG] UE: imsi-001010000000054 requested session, ID: 54
+2025-09-04 08:02:53 [DEBUG] Allocated TEID=0x362345 for uplink GTP tunnel
+2025-09-04 08:02:54 [NOTICE] PDU Session successfully established for UE: imsi-001010000000054
+2025-09-04 08:02:55 [DEBUG] UE: imsi-001010000000055 requested session, ID: 55
+2025-09-04 08:02:55 [DEBUG] Allocated TEID=0x372345 for uplink GTP tunnel
+2025-09-04 08:02:56 [NOTICE] PDU Session successfully established for UE: imsi-001010000000055
+2025-09-04 08:02:57 [DEBUG] UE: imsi-001010000000056 requested session, ID: 56
+2025-09-04 08:02:57 [DEBUG] Allocated TEID=0x382345 for uplink GTP tunnel
+2025-09-04 08:02:58 [NOTICE] PDU Session successfully established for UE: imsi-001010000000056
+2025-09-04 08:02:59 [DEBUG] Session modification request for UE: imsi-001010000000021
+2025-09-04 08:02:59 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=6
+2025-09-04 08:02:59 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:03:00 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000021
+2025-09-04 08:03:01 [DEBUG] UE: imsi-001010000000022 requested session release, ID: 22
+2025-09-04 08:03:01 [DEBUG] Sending Session Release Command to UPF, TEID=0x162345
+2025-09-04 08:03:02 [DEBUG] Session released for UE: imsi-001010000000022
+2025-09-04 08:03:02 [NOTICE] Session ID: 22 terminated cleanly
+2025-09-04 08:03:03 [WARNING] Firewall rule violation detected
+2025-09-04 08:03:04 [DEBUG] UE: imsi-001010000000057 requested session, ID: 57
+2025-09-04 08:03:04 [DEBUG] Allocated TEID=0x392345 for uplink GTP tunnel
+2025-09-04 08:03:05 [NOTICE] PDU Session successfully established for UE: imsi-001010000000057
+2025-09-04 08:03:06 [DEBUG] UE: imsi-001010000000058 requested session, ID: 58
+2025-09-04 08:03:06 [DEBUG] Allocated TEID=0x3A2345 for uplink GTP tunnel
+2025-09-04 08:03:07 [NOTICE] PDU Session successfully established for UE: imsi-001010000000058
+2025-09-04 08:03:08 [DEBUG] Heartbeat message sent to UPF node upf2
+2025-09-04 08:03:08 [DEBUG] Heartbeat response received from UPF node upf2
+2025-09-04 08:03:09 [DEBUG] UE: imsi-001010000000059 requested session, ID: 59
+2025-09-04 08:03:09 [DEBUG] Allocated TEID=0x3B2345 for uplink GTP tunnel
+2025-09-04 08:03:10 [NOTICE] PDU Session successfully established for UE: imsi-001010000000059
+2025-09-04 08:03:11 [DEBUG] UE: imsi-001010000000060 requested session, ID: 60
+2025-09-04 08:03:11 [DEBUG] Allocated TEID=0x3C2345 for uplink GTP tunnel
+2025-09-04 08:03:12 [NOTICE] PDU Session successfully established for UE: imsi-001010000000060
+2025-09-04 08:03:13 [DEBUG] UE: imsi-001010000000061 requested session, ID: 61
+2025-09-04 08:03:13 [DEBUG] Allocated TEID=0x3D2345 for uplink GTP tunnel
+2025-09-04 08:03:14 [NOTICE] PDU Session successfully established for UE: imsi-001010000000061
+2025-09-04 08:03:15 [DEBUG] Session modification request for UE: imsi-001010000000023
+2025-09-04 08:03:15 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=5
+2025-09-04 08:03:15 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:03:16 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000023
+2025-09-04 08:03:17 [DEBUG] UE: imsi-001010000000024 requested session release, ID: 24
+2025-09-04 08:03:17 [DEBUG] Sending Session Release Command to UPF, TEID=0x182345
+2025-09-04 08:03:18 [DEBUG] Session released for UE: imsi-001010000000024
+2025-09-04 08:03:18 [NOTICE] Session ID: 24 terminated cleanly
+2025-09-04 08:03:19 [WARNING] Security alert: suspicious activity detected
+2025-09-04 08:03:20 [DEBUG] UE: imsi-001010000000062 requested session, ID: 62
+2025-09-04 08:03:20 [DEBUG] Allocated TEID=0x3E2345 for uplink GTP tunnel
+2025-09-04 08:03:21 [NOTICE] PDU Session successfully established for UE: imsi-001010000000062
+2025-09-04 08:03:22 [DEBUG] UE: imsi-001010000000063 requested session, ID: 63
+2025-09-04 08:03:22 [DEBUG] Allocated TEID=0x3F2345 for uplink GTP tunnel
+2025-09-04 08:03:23 [NOTICE] PDU Session successfully established for UE: imsi-001010000000063
+2025-09-04 08:03:24 [DEBUG] Heartbeat message sent to UPF node upf1
+2025-09-04 08:03:24 [DEBUG] Heartbeat response received from UPF node upf1
+2025-09-04 08:03:25 [DEBUG] UE: imsi-001010000000064 requested session, ID: 64
+2025-09-04 08:03:25 [DEBUG] Allocated TEID=0x402345 for uplink GTP tunnel
+2025-09-04 08:03:26 [NOTICE] PDU Session successfully established for UE: imsi-001010000000064
+2025-09-04 08:03:27 [DEBUG] UE: imsi-001010000000065 requested session, ID: 65
+2025-09-04 08:03:27 [DEBUG] Allocated TEID=0x412345 for uplink GTP tunnel
+2025-09-04 08:03:28 [NOTICE] PDU Session successfully established for UE: imsi-001010000000065
+2025-09-04 08:03:29 [DEBUG] UE: imsi-001010000000066 requested session, ID: 66
+2025-09-04 08:03:29 [DEBUG] Allocated TEID=0x422345 for uplink GTP tunnel
+2025-09-04 08:03:30 [NOTICE] PDU Session successfully established for UE: imsi-001010000000066
+2025-09-04 08:03:31 [DEBUG] Session modification request for UE: imsi-001010000000025
+2025-09-04 08:03:31 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=4
+2025-09-04 08:03:31 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:03:32 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000025
+2025-09-04 08:03:33 [DEBUG] UE: imsi-001010000000026 requested session release, ID: 26
+2025-09-04 08:03:33 [DEBUG] Sending Session Release Command to UPF, TEID=0x1A2345
+2025-09-04 08:03:34 [DEBUG] Session released for UE: imsi-001010000000026
+2025-09-04 08:03:34 [NOTICE] Session ID: 26 terminated cleanly
+2025-09-04 08:03:35 [WARNING] SSL certificate expires in 15 days
+2025-09-04 08:03:36 [DEBUG] UE: imsi-001010000000067 requested session, ID: 67
+2025-09-04 08:03:36 [DEBUG] Allocated TEID=0x432345 for uplink GTP tunnel
+2025-09-04 08:03:37 [NOTICE] PDU Session successfully established for UE: imsi-001010000000067
+2025-09-04 08:03:38 [DEBUG] UE: imsi-001010000000068 requested session, ID: 68
+2025-09-04 08:03:38 [DEBUG] Allocated TEID=0x442345 for uplink GTP tunnel
+2025-09-04 08:03:39 [NOTICE] PDU Session successfully established for UE: imsi-001010000000068
+2025-09-04 08:03:40 [DEBUG] Heartbeat message sent to UPF node upf2
+2025-09-04 08:03:40 [DEBUG] Heartbeat response received from UPF node upf2
+2025-09-04 08:03:41 [DEBUG] UE: imsi-001010000000069 requested session, ID: 69
+2025-09-04 08:03:41 [DEBUG] Allocated TEID=0x452345 for uplink GTP tunnel
+2025-09-04 08:03:42 [NOTICE] PDU Session successfully established for UE: imsi-001010000000069
+2025-09-04 08:03:43 [DEBUG] UE: imsi-001010000000070 requested session, ID: 70
+2025-09-04 08:03:43 [DEBUG] Allocated TEID=0x462345 for uplink GTP tunnel
+2025-09-04 08:03:44 [NOTICE] PDU Session successfully established for UE: imsi-001010000000070
+2025-09-04 08:03:45 [DEBUG] UE: imsi-001010000000071 requested session, ID: 71
+2025-09-04 08:03:45 [DEBUG] Allocated TEID=0x472345 for uplink GTP tunnel
+2025-09-04 08:03:46 [NOTICE] PDU Session successfully established for UE: imsi-001010000000071
+2025-09-04 08:03:47 [DEBUG] Session modification request for UE: imsi-001010000000027
+2025-09-04 08:03:47 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=3
+2025-09-04 08:03:47 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:03:48 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000027
+2025-09-04 08:03:49 [DEBUG] UE: imsi-001010000000028 requested session release, ID: 28
+2025-09-04 08:03:49 [DEBUG] Sending Session Release Command to UPF, TEID=0x1C2345
+2025-09-04 08:03:50 [DEBUG] Session released for UE: imsi-001010000000028
+2025-09-04 08:03:50 [NOTICE] Session ID: 28 terminated cleanly
+2025-09-04 08:03:51 [WARNING] Database connection pool exhausted
+2025-09-04 08:03:52 [DEBUG] UE: imsi-001010000000072 requested session, ID: 72
+2025-09-04 08:03:52 [DEBUG] Allocated TEID=0x482345 for uplink GTP tunnel
+2025-09-04 08:03:53 [NOTICE] PDU Session successfully established for UE: imsi-001010000000072
+2025-09-04 08:03:54 [DEBUG] UE: imsi-001010000000073 requested session, ID: 73
+2025-09-04 08:03:54 [DEBUG] Allocated TEID=0x492345 for uplink GTP tunnel
+2025-09-04 08:03:55 [NOTICE] PDU Session successfully established for UE: imsi-001010000000073
+2025-09-04 08:03:56 [DEBUG] Heartbeat message sent to UPF node upf1
+2025-09-04 08:03:56 [DEBUG] Heartbeat response received from UPF node upf1
+2025-09-04 08:03:57 [DEBUG] UE: imsi-001010000000074 requested session, ID: 74
+2025-09-04 08:03:57 [DEBUG] Allocated TEID=0x4A2345 for uplink GTP tunnel
+2025-09-04 08:03:58 [NOTICE] PDU Session successfully established for UE: imsi-001010000000074
+2025-09-04 08:03:59 [DEBUG] UE: imsi-001010000000075 requested session, ID: 75
+2025-09-04 08:03:59 [DEBUG] Allocated TEID=0x4B2345 for uplink GTP tunnel
+2025-09-04 08:04:00 [NOTICE] PDU Session successfully established for UE: imsi-001010000000075
+2025-09-04 08:04:01 [DEBUG] UE: imsi-001010000000076 requested session, ID: 76
+2025-09-04 08:04:01 [DEBUG] Allocated TEID=0x4C2345 for uplink GTP tunnel
+2025-09-04 08:04:02 [NOTICE] PDU Session successfully established for UE: imsi-001010000000076
+2025-09-04 08:04:03 [DEBUG] Session modification request for UE: imsi-001010000000029
+2025-09-04 08:04:03 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=2
+2025-09-04 08:04:03 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:04:04 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000029
+2025-09-04 08:04:05 [DEBUG] UE: imsi-001010000000030 requested session release, ID: 30
+2025-09-04 08:04:05 [DEBUG] Sending Session Release Command to UPF, TEID=0x1E2345
+2025-09-04 08:04:06 [DEBUG] Session released for UE: imsi-001010000000030
+2025-09-04 08:04:06 [NOTICE] Session ID: 30 terminated cleanly
+2025-09-04 08:04:07 [WARNING] High thread count detected: 250
+2025-09-04 08:04:08 [DEBUG] UE: imsi-001010000000077 requested session, ID: 77
+2025-09-04 08:04:08 [DEBUG] Allocated TEID=0x4D2345 for uplink GTP tunnel
+2025-09-04 08:04:09 [NOTICE] PDU Session successfully established for UE: imsi-001010000000077
+2025-09-04 08:04:10 [DEBUG] UE: imsi-001010000000078 requested session, ID: 78
+2025-09-04 08:04:10 [DEBUG] Allocated TEID=0x4E2345 for uplink GTP tunnel
+2025-09-04 08:04:11 [NOTICE] PDU Session successfully established for UE: imsi-001010000000078
+2025-09-04 08:04:12 [DEBUG] Heartbeat message sent to UPF node upf2
+2025-09-04 08:04:12 [DEBUG] Heartbeat response received from UPF node upf2
+2025-09-04 08:04:13 [DEBUG] UE: imsi-001010000000079 requested session, ID: 79
+2025-09-04 08:04:13 [DEBUG] Allocated TEID=0x4F2345 for uplink GTP tunnel
+2025-09-04 08:04:14 [NOTICE] PDU Session successfully established for UE: imsi-001010000000079
+2025-09-04 08:04:15 [DEBUG] UE: imsi-001010000000080 requested session, ID: 80
+2025-09-04 08:04:15 [DEBUG] Allocated TEID=0x502345 for uplink GTP tunnel
+2025-09-04 08:04:16 [NOTICE] PDU Session successfully established for UE: imsi-001010000000080
+2025-09-04 08:04:17 [DEBUG] UE: imsi-001010000000081 requested session, ID: 81
+2025-09-04 08:04:17 [DEBUG] Allocated TEID=0x512345 for uplink GTP tunnel
+2025-09-04 08:04:18 [NOTICE] PDU Session successfully established for UE: imsi-001010000000081
+2025-09-04 08:04:18 [ERROR] AMF connection lost during session establishment for UE: imsi-001010000000081
+2025-09-04 08:04:19 [DEBUG] Session modification request for UE: imsi-001010000000031
+2025-09-04 08:04:19 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=1
+2025-09-04 08:04:19 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:04:20 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000031
+2025-09-04 08:04:21 [DEBUG] UE: imsi-001010000000032 requested session release, ID: 32
+2025-09-04 08:04:21 [DEBUG] Sending Session Release Command to UPF, TEID=0x202345
+2025-09-04 08:04:22 [DEBUG] Session released for UE: imsi-001010000000032
+2025-09-04 08:04:22 [NOTICE] Session ID: 32 terminated cleanly
+2025-09-04 08:04:23 [WARNING] Memory cache miss rate high: 45%
+2025-09-04 08:04:24 [DEBUG] UE: imsi-001010000000082 requested session, ID: 82
+2025-09-04 08:04:24 [DEBUG] Allocated TEID=0x522345 for uplink GTP tunnel
+2025-09-04 08:04:25 [NOTICE] PDU Session successfully established for UE: imsi-001010000000082
+2025-09-04 08:04:26 [DEBUG] UE: imsi-001010000000083 requested session, ID: 83
+2025-09-04 08:04:26 [DEBUG] Allocated TEID=0x532345 for uplink GTP tunnel
+2025-09-04 08:04:27 [NOTICE] PDU Session successfully established for UE: imsi-001010000000083
+2025-09-04 08:04:28 [DEBUG] Heartbeat message sent to UPF node upf1
+2025-09-04 08:04:28 [DEBUG] Heartbeat response received from UPF node upf1
+2025-09-04 08:04:29 [DEBUG] UE: imsi-001010000000084 requested session, ID: 84
+2025-09-04 08:04:29 [DEBUG] Allocated TEID=0x542345 for uplink GTP tunnel
+2025-09-04 08:04:30 [NOTICE] PDU Session successfully established for UE: imsi-001010000000084
+2025-09-04 08:04:31 [DEBUG] UE: imsi-001010000000085 requested session, ID: 85
+2025-09-04 08:04:31 [DEBUG] Allocated TEID=0x552345 for uplink GTP tunnel
+2025-09-04 08:04:32 [NOTICE] PDU Session successfully established for UE: imsi-001010000000085
+2025-09-04 08:04:33 [DEBUG] UE: imsi-001010000000086 requested session, ID: 86
+2025-09-04 08:04:33 [DEBUG] Allocated TEID=0x562345 for uplink GTP tunnel
+2025-09-04 08:04:34 [NOTICE] PDU Session successfully established for UE: imsi-001010000000086
+2025-09-04 08:04:35 [DEBUG] Session modification request for UE: imsi-001010000000033
+2025-09-04 08:04:35 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=7
+2025-09-04 08:04:35 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:04:36 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000033
+2025-09-04 08:04:37 [DEBUG] UE: imsi-001010000000034 requested session release, ID: 34
+2025-09-04 08:04:37 [DEBUG] Sending Session Release Command to UPF, TEID=0x222345
+2025-09-04 08:04:38 [DEBUG] Session released for UE: imsi-001010000000034
+2025-09-04 08:04:38 [NOTICE] Session ID: 34 terminated cleanly
+2025-09-04 08:04:39 [WARNING] Network bandwidth saturated: 95%
+2025-09-04 08:04:40 [DEBUG] UE: imsi-001010000000087 requested session, ID: 87
+2025-09-04 08:04:40 [DEBUG] Allocated TEID=0x572345 for uplink GTP tunnel
+2025-09-04 08:04:41 [NOTICE] PDU Session successfully established for UE: imsi-001010000000087
+2025-09-04 08:04:42 [DEBUG] UE: imsi-001010000000088 requested session, ID: 88
+2025-09-04 08:04:42 [DEBUG] Allocated TEID=0x582345 for uplink GTP tunnel
+2025-09-04 08:04:43 [NOTICE] PDU Session successfully established for UE: imsi-001010000000088
+2025-09-04 08:04:44 [DEBUG] Heartbeat message sent to UPF node upf2
+2025-09-04 08:04:44 [DEBUG] Heartbeat response received from UPF node upf2
+2025-09-04 08:04:45 [DEBUG] UE: imsi-001010000000089 requested session, ID: 89
+2025-09-04 08:04:45 [DEBUG] Allocated TEID=0x592345 for uplink GTP tunnel
+2025-09-04 08:04:46 [NOTICE] PDU Session successfully established for UE: imsi-001010000000089
+2025-09-04 08:04:47 [DEBUG] UE: imsi-001010000000090 requested session, ID: 90
+2025-09-04 08:04:47 [DEBUG] Allocated TEID=0x5A2345 for uplink GTP tunnel
+2025-09-04 08:04:48 [NOTICE] PDU Session successfully established for UE: imsi-001010000000090
+2025-09-04 08:04:49 [DEBUG] UE: imsi-001010000000091 requested session, ID: 91
+2025-09-04 08:04:49 [DEBUG] Allocated TEID=0x5B2345 for uplink GTP tunnel
+2025-09-04 08:04:50 [NOTICE] PDU Session successfully established for UE: imsi-001010000000091
+2025-09-04 08:04:51 [DEBUG] Session modification request for UE: imsi-001010000000035
+2025-09-04 08:04:51 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=8
+2025-09-04 08:04:51 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:04:52 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000035
+2025-09-04 08:04:53 [DEBUG] UE: imsi-001010000000036 requested session release, ID: 36
+2025-09-04 08:04:53 [DEBUG] Sending Session Release Command to UPF, TEID=0x242345
+2025-09-04 08:04:54 [DEBUG] Session released for UE: imsi-001010000000036
+2025-09-04 08:04:54 [NOTICE] Session ID: 36 terminated cleanly
+2025-09-04 08:04:55 [WARNING] Disk I/O bottleneck detected
+2025-09-04 08:04:56 [DEBUG] UE: imsi-001010000000092 requested session, ID: 92
+2025-09-04 08:04:56 [DEBUG] Allocated TEID=0x5C2345 for uplink GTP tunnel
+2025-09-04 08:04:57 [NOTICE] PDU Session successfully established for UE: imsi-001010000000092
+2025-09-04 08:04:58 [DEBUG] UE: imsi-001010000000093 requested session, ID: 93
+2025-09-04 08:04:58 [DEBUG] Allocated TEID=0x5D2345 for uplink GTP tunnel
+2025-09-04 08:04:59 [NOTICE] PDU Session successfully established for UE: imsi-001010000000093
+2025-09-04 08:05:00 [DEBUG] Heartbeat message sent to UPF node upf1
+2025-09-04 08:05:00 [DEBUG] Heartbeat response received from UPF node upf1
+2025-09-04 08:05:01 [DEBUG] UE: imsi-001010000000094 requested session, ID: 94
+2025-09-04 08:05:01 [DEBUG] Allocated TEID=0x5E2345 for uplink GTP tunnel
+2025-09-04 08:05:02 [NOTICE] PDU Session successfully established for UE: imsi-001010000000094
+2025-09-04 08:05:03 [DEBUG] UE: imsi-001010000000095 requested session, ID: 95
+2025-09-04 08:05:03 [DEBUG] Allocated TEID=0x5F2345 for uplink GTP tunnel
+2025-09-04 08:05:04 [NOTICE] PDU Session successfully established for UE: imsi-001010000000095
+2025-09-04 08:05:05 [DEBUG] UE: imsi-001010000000096 requested session, ID: 96
+2025-09-04 08:05:05 [DEBUG] Allocated TEID=0x602345 for uplink GTP tunnel
+2025-09-04 08:05:06 [NOTICE] PDU Session successfully established for UE: imsi-001010000000096
+2025-09-04 08:05:07 [DEBUG] Session modification request for UE: imsi-001010000000037
+2025-09-04 08:05:07 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=6
+2025-09-04 08:05:07 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:05:08 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000037
+2025-09-04 08:05:09 [DEBUG] UE: imsi-001010000000038 requested session release, ID: 38
+2025-09-04 08:05:09 [DEBUG] Sending Session Release Command to UPF, TEID=0x262345
+2025-09-04 08:05:10 [DEBUG] Session released for UE: imsi-001010000000038
+2025-09-04 08:05:10 [NOTICE] Session ID: 38 terminated cleanly
+2025-09-04 08:05:11 [WARNING] High error rate detected: 2.3%
+2025-09-04 08:05:12 [DEBUG] UE: imsi-001010000000097 requested session, ID: 97
+2025-09-04 08:05:12 [DEBUG] Allocated TEID=0x612345 for uplink GTP tunnel
+2025-09-04 08:05:13 [NOTICE] PDU Session successfully established for UE: imsi-001010000000097
+2025-09-04 08:05:14 [DEBUG] UE: imsi-001010000000098 requested session, ID: 98
+2025-09-04 08:05:14 [DEBUG] Allocated TEID=0x622345 for uplink GTP tunnel
+2025-09-04 08:05:15 [NOTICE] PDU Session successfully established for UE: imsi-001010000000098
+2025-09-04 08:05:16 [DEBUG] Heartbeat message sent to UPF node upf2
+2025-09-04 08:05:16 [DEBUG] Heartbeat response received from UPF node upf2
+2025-09-04 08:05:17 [DEBUG] UE: imsi-001010000000099 requested session, ID: 99
+2025-09-04 08:05:17 [DEBUG] Allocated TEID=0x632345 for uplink GTP tunnel
+2025-09-04 08:05:18 [NOTICE] PDU Session successfully established for UE: imsi-001010000000099
+2025-09-04 08:05:19 [DEBUG] UE: imsi-001010000000100 requested session, ID: 100
+2025-09-04 08:05:19 [DEBUG] Allocated TEID=0x642345 for uplink GTP tunnel
+2025-09-04 08:05:20 [NOTICE] PDU Session successfully established for UE: imsi-001010000000100
+2025-09-04 08:05:21 [DEBUG] UE: imsi-001010000000101 requested session, ID: 101
+2025-09-04 08:05:21 [DEBUG] Allocated TEID=0x652345 for uplink GTP tunnel
+2025-09-04 08:05:22 [NOTICE] PDU Session successfully established for UE: imsi-001010000000101
+2025-09-04 08:05:23 [DEBUG] Session modification request for UE: imsi-001010000000039
+2025-09-04 08:05:23 [DEBUG] Updating QoS profile: 5QI=9 → 5QI=5
+2025-09-04 08:05:23 [DEBUG] Sent Session Modification Command to UPF
+2025-09-04 08:05:24 [NOTICE] QoS modification applied successfully for UE: imsi-001010000000039
+2025-09-04 08:05:25 [DEBUG] UE: imsi-001010000000040 requested session release, ID: 40
+2025-09-04 08:05:25 [DEBUG] Sending Session Release Command to UPF, TEID=0x282345
